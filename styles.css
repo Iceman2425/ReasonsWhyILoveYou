@@ -277,10 +277,13 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-toggle.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
-    .my-element {
-        height: 100dvh;
+    @viewport {
+        width: device-width;
+        zoom: 1.0;        
+    } 
+    @-webkit-viewport {
+        width: device-width;
     }
-
+    
 }
 
