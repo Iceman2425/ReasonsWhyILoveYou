@@ -166,18 +166,18 @@ body {
     height: 80px;
     width: 100%;
  }   
- label.logo {
-    color: #7c0000;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
-    font-weight: bold;
- }
+
+
 nav ul{
-    float: center;
+    display: flex;
     bottom: 40px;
     z-index: 999;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+
  }
 
     @viewport {
