@@ -184,12 +184,16 @@ h1, h2, h3, h4, h5, h6 {
         position: absolute;
         bottom: -5px;
         left: 0;
-        width: 100%;
+        width: 0;
         height: 2px;
         background-color: #7c0000;
-       
+        transition: .3s;
+
+              
     }
-}
+    .navbar a:hover::before {
+        width: 100%;
+    }
     @viewport {
         width: device-width;
         zoom: 1.0;        
