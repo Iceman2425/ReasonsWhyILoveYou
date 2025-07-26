@@ -230,39 +230,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     box-sizing: border-none;
 }
-/* Mobile Devices */
-@media (max-width: 480px) {
-    foo > bar {
-            
-    }
-}
-        
-/* Low resolution Tablets and iPads */
-@media (min-width: 481px) and (max-width: 767px) {
-    foo > bar {
-        
-    }
-}
-        
-/* Tablets iPads (Portrait) */
-@media (min-width: 768px) and (max-width: 1024px){
-    foo > bar {
-        
-    }
-}
-    
-/* Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
-    foo > bar {
-        
-    }
-}
-    
-/* Big boi Monitors */
-@media (min-width: 1281px) {
-    foo > bar {
-        
-    }
+@media (max-width:480px){}
 
 
     .navbar-container {
