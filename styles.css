@@ -172,11 +172,11 @@ nav ul{
     display: flex;
     top: 200px;
     z-index: 999;
-    position: absolute;
+    position: sticky;
     justify-content: center;
     align-items: center;
     list-style: none;
-    right: 40px;
+    
 
 
  }
