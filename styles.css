@@ -230,8 +230,39 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     box-sizing: border-none;
 }
-@media screen and (max-width: 360px) and (max-width: 420px) {
+/* Mobile Devices */
+@media (max-width: 480px) {
+    foo > bar {
+            
+    }
 }
+        
+/* Low resolution Tablets and iPads */
+@media (min-width: 481px) and (max-width: 767px) {
+    foo > bar {
+        
+    }
+}
+        
+/* Tablets iPads (Portrait) */
+@media (min-width: 768px) and (max-width: 1024px){
+    foo > bar {
+        
+    }
+}
+    
+/* Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    foo > bar {
+        
+    }
+}
+    
+/* Big boi Monitors */
+@media (min-width: 1281px) {
+    foo > bar {
+        
+    }
 
 
     .navbar-container {
@@ -245,11 +276,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.2rem;
         padding: 3px 15px;
     }   
-    .ellipsis {
-
-    }  
-
-@media (max-width: 880px) {
+  
     .navbar {
         backdrop-filter: none;
     }
