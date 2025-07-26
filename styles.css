@@ -164,9 +164,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 100px;
     background-color: transparent;
     display: flex;
-    align-items: center;
+    align-items: inline-block;
     justify-content: space-between;
     z-index: 1000;
+
 }
 .navbar a {
     font-size: 1.2rem;
