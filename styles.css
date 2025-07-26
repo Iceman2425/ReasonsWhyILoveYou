@@ -177,6 +177,7 @@ body {
 nav ul{
     float: center;
     bottom: 40px;
+    z-index: 999;
  }
 
     @viewport {
