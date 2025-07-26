@@ -151,49 +151,34 @@ h1, h2, h3, h4, h5, h6 {
     color: transparent;
 }
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-none;
-    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;   
-}
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background-color: transparent;
-    display: flex;
-    align-items: inline-block;
-    justify-content: space-between;
-    z-index: 1000;
-
-}
-.navbar a {
-    font-size: 1.2rem;
-    color: #7c0000;
+    margin: 0;
     text-decoration: none;
-    font-weight:500;
-    transition: color 0.3s ease;
-    position: relative;
-    align-items: inline-block;
+    list-style: inline-block;
+    box-sizing: border-box;      
+}
+body {
+    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
+    color: #7c0000;
+}
+ nav {
+    background: transparent;
+    height: 80px;
+    width: 100%;
+ }   
+ label.logo {
+    color: #7c0000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
+    font-weight: bold;
+ }
+nav ul{
+    float: right;
+    left: 40px;;
+ }
 
-    }
-    .navbar a::before {
-        content: '';
-        position: absolute;
-        bottom: -5px;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background-color: #7c0000;
-        transition: .3s;
-
-              
-    }
-    .navbar a:hover::before {
-        width: 100%;
-    }
     @viewport {
         width: device-width;
         zoom: 1.0;        
