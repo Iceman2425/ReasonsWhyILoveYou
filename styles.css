@@ -154,8 +154,28 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     box-sizing: border-none;
-    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
+    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;   
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.navbar a {
+    font-size: 1.2rem;
+    color: #7c0000;
+    text-decoration: none;
+    font-weight:500;
+    transition: color 0.3s ease;
     
+}
 }
     @viewport {
         width: device-width;
