@@ -150,13 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 999;
     color: transparent;
 }
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: inline-block;
-    box-sizing: border-box;      
-}
+
 body {
     font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
     color: #7c0000;
