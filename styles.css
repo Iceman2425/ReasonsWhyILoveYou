@@ -170,7 +170,7 @@ body {
 
 nav ul{
     display: flex;
-    bottom: 40px;
+    bottom: 20px;
     z-index: 999;
     position: absolute;
     justify-content: center;
