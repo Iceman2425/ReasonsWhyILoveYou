@@ -139,8 +139,8 @@ h1, h2, h3, h4, h5, h6 {
     word-break: break-word;
     display: inline-block;
     right: 20%;
-    
 }
+
 .navbar-container {
     display: inline;
     align-items: center;
@@ -171,9 +171,33 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.7s ease;
     white-space: nowrap;
 }
-
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    color: #7c0000;
+    padding: 3px 20px;
+    background-color: transparent;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 .navbar-container .navbar-menu li a:hover {
-    color: #000000;
+    color: #bd0606;
     background-color: #7c0000;
     border: 2px solid #8d0000;
 }
