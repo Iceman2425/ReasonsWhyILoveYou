@@ -1,8 +1,93 @@
-#heart {
-    position: relative;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-color: black;
+    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
+    color: #7c0000;    
 }
 
+main{
+    padding: min(5em, 7%);
+}
+
+
+main p {
+    position: fixed;
+    top: 50px;
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    top: 150px;
+    left: 30%;
+    background-color: rgba(0,0,0,0.1);
+    border-bottom: 1px solid var(--hover-color);
+    
+}
+nav.show{
+    right: 0;
+}
+nav.show ~ #overlay{
+    display: block;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav .home-li{
+    margin-right: auto;
+}
+nav li{
+    display: flex;
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 1em 2em;
+}
+
+nav a:hover{
+    background-color: var(--hover-color);
+}
+nav a.active-link{
+    border-bottom: 2px solid var(--text-color);
+}
+nav a.accent-link{
+    background-color: var(--accent-color);
+}
+#open-sidebar-button{
+    display: none;
+    background: none;
+    border: none;
+    padding: 1em;
+    margin-left: auto;
+    cursor: pointer;
+}
+#close-sidebar-button{
+    display: none;
+    background: none;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+#overlay{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    inset: 0;
+    z-index: 9;
+    display: none;
+}
 #heart video {
     height: 100vh;
     width: 100%;
@@ -16,234 +101,141 @@
     background: transparent;
     position: absolute;
     top: 5%;
-    left: 30%;
+    left: 35%;
     align-items: center;
-    transform: translate
-    
+    transform: translate;
+    font-size: 2.5rem;
 }
 
 #heart .content h2 {
     margin: 0;
     background: transparent;
     position: absolute;
-    top: 10%;
-    left: 25%;
+    top: 5%;
+    left: 45%;
     align-items: center;
-    transform: translate
-
+    transform: translate;
+    font-size: 2.5rem;
 }
 
-div .YourSmile h1 {
+#heart .content h3 {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(100%, 100%) 
-       
-    
-}
-    
-
-div .YourSmile p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-div .YourLaugh h1 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(100%, 100%) 
-
-}
-
-div .YourLaugh p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-div .YourCompassion h1 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(50%, 50%) 
-}
-div .YourCompassion p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-div .YourLove h1 {
-    Margin: 0;
-    position: absolute;
-    transform: translate(130%, 0%) 
-}
-div .YourLove p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
-    margin: 0;
-    background: black;
-    color: #7c0000;
-    height: auto;
-}
-
-
-.navbar {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    height: 40px;
-    width: 100%;
-    position: sticky;
-    top: 130px;
     background: transparent;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    backdrop-filter: transparent;
-    color: #7c0000;
-    z-index: 999;
-}
-    
-.navbar-container {
-    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 45%;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 2rem;
-    max-width: 1600px;
-    
-        
-}
-.navbar-logo {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #7c0000;
-    text-decoration: none;
-    cursor: pointer;
-    Top: 40%;
-    
-}
-.navbar-container .navbar-menu {
-    display: flex;
-    text-align: center;
-    gap: 17rem;
-    list-style: none;
-    top: 20%;
+    transform: translate;
+    font-size: 2.5rem;
 }
 
-.navbar-container .navbar-menu li a {
-    text-decoration: none;
-    color: #7c0000;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 3px 20px;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    transition: all 0.7 ease;
-    white-space: nowrap;
-    
-    
-}
-
-.navbar-container .navbar-menu li a:hover {
-    color: #7c0000;
-    background: black;
-    border: 2px solid;
-    
-}
-.navbar-toggle {
+#heart .content h4 {
+    margin: 0;
     background: transparent;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    display: none;
-   
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    align-items: center;
+    transform: translate;
+    font-size: 2.5rem;
 }
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color: #7c0000;
-    transition: all 0.3s ease-in-out;
-    
+
+#heart .content h5 {
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    align-items: center;
+    transform: translate;
+    font-size: 2.5rem;
 }
-/* Responsive Style */
-@media (max-width: 800px) {
-    .navbar {
-        backdrop-filter: none;
-    }
-    
-    .navbar-container .navbarmenu {
-        display: none
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.7rem !important;
-        position: absolute;
-        height: 100vh;
-        width: 250px;
-        top: 0;
-        right: 0;
-        padding: 5rem 1.5rem;
-        box-shadow: 0 10px 10px rgba(0,0,0,0.5);
-        backdrop-filter: transparent;
-    }
-    .navbar-container .navbar-menu.active{
-        display: flex;
-    }
-    .navbar-toggle {
+
+
+#heart .content p {
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    align-items: center;
+    transform: translate;
+}
+
+#heart .content .YourCompassion  {
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    align-items: center;
+    transform: translate;
+}
+
+#heart .content .YourLaugh {
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    align-items: center;
+    transform: translate;
+}
+#heart .content .YourLove {
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    align-items: center;
+    transform: translate;
+}
+
+#heart .content .YourSmile {
+    margin: 0;
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    align-items: center;
+    transform: translate;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 700px){
+    #open-sidebar-button, #close-sidebar-button{
         display: block;
-        z-index: 999;
     }
-    .navbar-toggle.active .bar:nth-child(2) {
-        opacity: 0;
+nav{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: min(15em, 100%);
+    z-index: 10;
+    border-left: 1px solid var(--hover-color);
+    transition: right 300ms ease-out;
     }
-    .navbar-toggle.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+nav.show{
+    right: 0;
     }
-
-    .navbar-toggle.active .bar:nth-child(3) {
-        transform: translateY(-8) rotate(-45deg);
+nav ul{
+    width: 100%;
+    flex-direction: column;
     }
+nav a{
+    width: 100%;
 }
-    
-@media (max-width: 480px) {
-    
-    .navbar-container {
-        padding: 0 1rem;
-    }
-
-    .navbar-logo {
-        font-size: 1.7rem;
-    }
-    
-    .navbar-container .navbar-menu li a {
-        font-size: 1.2rem;
-        padding: 3px 15px;
-    }
+nav a.active-link{
+    border-bottom: none;
 }
+nav .home-li{
+    margin-right: unset;
+}
+
+
+}
+
+
 

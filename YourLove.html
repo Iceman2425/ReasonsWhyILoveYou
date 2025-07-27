@@ -7,39 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
-    </head>
-<body>
-    <nav class="navbar">
-        <div class="navbar-container">
-            <a href="index.html" class="navbar-logo">Home</a>
-            <button class="navbar-toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            </button>
-            <ul class="navbar-menu">
-            <li><a href="YourSmile.html" class="active">Your Smile</a></li>
-            <li><a href="YourLaugh.html" class="navbar-YourLaugh">Your Laugh</a></li>
-            <li><a href="YourCompassion.html" class="navbar-YourCompassion">Your Compassion</a></li>
-            <li><a href="YourLove.html" class="navbar-YourLove">Your Love</a></li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-</body>
+    <script src="script.js" defer></script>
+</head>
 <div id="heart">
     <video autoplay loop muted src="Heart.mp4" type="video/mp4">
     </video>
     <div class="content">
-        <div class="container text-center">
-            <div class="YourLove">
-            <h1>Your Love</h1>
-            <p>Babe, Your love is like a warm embrace, a gentle touch that soothes my soul. It fills my heart with joy and grace, a feeling that makes me feel whole. Your love is a melody that plays in my heart, a symphony of passion and desire. It lifts me up and sets me apart, a flame that burns with an eternal fire. Your love is a treasure that I hold dear, a precious gift that I cherish each day. It brings me comfort and wipes away my fear, a light that guides me along the way. Your love is a journey that we take together, a path that leads us to new heights. It fills my life with joy and pleasure, a bond that grows stronger with each passing night. Your love is a promise that we make, a vow to stand by each other's side. It is a commitment that we will never break, a love that will always abide. Your love is a blessing that I am grateful for, a gift that I will always treasure. It is a feeling that I cannot ignore, a love that fills my heart with endless pleasure. Your love is a song that I sing with glee, a melody that echoes in my soul. It is a feeling that sets me free, a love that makes me feel completely whole. Your love is a dream that I never want to end, a fantasy that I hold close to my heart. It is a feeling that I will always defend, a love that will never drift apart.</p>
-        </div>   
-        <audio autoplay loop controls>
-            <source src="rescue-me-adtr.mp3">
-        </audio>   
-    </div>
-    </div>
-</div>
+        <div class="container">
+            <h5>Your Love</h5>
+            <p class="YourLove"> Babe, Your love is like a warm embrace, a gentle touch that soothes my soul. It fills my heart with joy and grace, a feeling that makes me feel whole. Your love is a melody that plays in my heart, a symphony of passion and desire. It lifts me up and sets me apart, a flame that burns with an eternal fire. Your love is a treasure that I hold dear, a precious gift that I cherish each day. It brings me comfort and wipes away my fear, a light that guides me along the way. Your love is a journey that we take together, a path that leads us to new heights. It fills my life with joy and pleasure, a bond that grows stronger with each passing night. Your love is a promise that we make, a vow to stand by each other's side. It is a commitment that we will never break, a love that will always abide. Your love is a blessing that I am grateful for, a gift that I will always treasure. It is a feeling that I cannot ignore, a love that fills my heart with endless pleasure. Your love is a song that I sing with glee, a melody that echoes in my soul. It is a feeling that sets me free, a love that makes me feel completely whole. Your love is a dream that I never want to end, a fantasy that I hold close to my heart. It is a feeling that I will always defend, a love that will never drift apart.</p>
+        </div> 
+<body>
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-hidden="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <image src="heart.svg" height="40px" viewBox="0 -960 960 960" width="40px"/>
+    </button>
+        <nav id="navbar">
+         <ul>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()">
+                <image src="close.svg" height="40px" viewBox="0 -960 960 960" width="40px"/>
+            </button></li>
+            <li class="home-li"><a class="active-link" aria-current="page" href="index.html" class="Home">Home</a></li>
+            <li><a href="YourSmile.html">Your Smile</a></li>
+            <li><a href="YourLaugh.html">Your Laugh</a></li>
+            <li><a href="YourCompassion.html">Your Compassion</a></li>
+            <li><a class="accent-link" href="YourLove.html">Your Love</a> </li>
+        </ul>
+    </nav>
+    <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+</body>
 </html>

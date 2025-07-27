@@ -7,39 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
-    </head>
-<body>
-    <nav class="navbar">
-        <div class="navbar-container">
-            <a href="index.html" class="navbar-logo">Home</a>
-            <button class="navbar-toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            </button>
-            <ul class="navbar-menu">
-            <li><a href="YourSmile.html" class="active">Your Smile</a></li>
-            <li><a href="YourLaugh.html" class="navbar-YourLaugh">Your Laugh</a></li>
-            <li><a href="YourCompassion.html" class="navbar-YourCompassion">Your Compassion</a></li>
-            <li><a href="YourLove.html" class="navbar-YourLove">Your Love</a></li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-</body>
+    <script src="script.js" defer></script>
+</head>
 <div id="heart">
     <video autoplay loop muted src="Heart.mp4" type="video/mp4">
     </video>
     <div class="content">
-        <div class="container text-center">
-            <div class="YourLaugh">
-            <h1>Your Laugh</h1>
-            <p>Babe, Where do I even begin with your laugh? It is the most beautiful sound in the world to me. Every time I hear it, it fills my heart with joy and happiness. Your laugh is infectious and it makes me smile every time I hear it. It is a sound that I will never tire of, and I could listen to it for hours on end. Your laugh is a reflection of your perfect personality, and it makes me fall in love with you all over again every time I hear it. Like I will forever tell you, picking you up that day from the airport will always be one of the greatest days of my life. Everything forever changed that day, and I am so grateful for it happening. From sitting on the couch together and laughing about the crime shows we watch, to going off on wild adventures, I wouldn't change a single thing. You and your laugh have completed me and fixed everything that's been broken in me and I thank you so much for it. I love you so much.</p>
+        <div class="container">
+            <h3>Your Laugh</h3>
+            <p class="YourLaugh"> Babe, Where do I even begin with your laugh? It is the most beautiful sound in the world to me. Every time I hear it, it fills my heart with joy and happiness. Your laugh is infectious and it makes me smile every time I hear it. It is a sound that I will never tire of, and I could listen to it for hours on end. Your laugh is a reflection of your perfect personality, and it makes me fall in love with you all over again every time I hear it. Like I will forever tell you, picking you up that day from the airport will always be one of the greatest days of my life. Everything forever changed that day, and I am so grateful for it happening. From sitting on the couch together and laughing about the crime shows we watch, to going off on wild adventures, I wouldn't change a single thing. You and your laugh have completed me and fixed everything that's been broken in me and I thank you so much for it. I love you so much.</p>
         </div> 
-        <audio autoplay loop controls>
-        <source src="Shania Twain - Man! I Feel Like A Woman! (Official Music Video).mp3">
-    </audio>     
-    </div>
-    </div>
-</div>
+<body>
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-hidden="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <image src="heart.svg" height="40px" viewBox="0 -960 960 960" width="40px"/>
+    </button>
+        <nav id="navbar">
+         <ul>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()">
+                <image src="close.svg" height="40px" viewBox="0 -960 960 960" width="40px"/>
+            </button></li>
+            <li class="home-li"><a class="active-link" aria-current="page" href="index.html" class="Home">Home</a></li>
+            <li><a href="YourSmile.html">Your Smile</a></li>
+            <li><a href="YourLaugh.html">Your Laugh</a></li>
+            <li><a href="YourCompassion.html">Your Compassion</a></li>
+            <li><a class="accent-link" href="YourLove.html">Your Love</a> </li>
+        </ul>
+    </nav>
+    <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+</body>
 </html>
