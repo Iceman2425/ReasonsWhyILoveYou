@@ -14,20 +14,8 @@ body{
     font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
     color: #7c0000;    
 }
-
-main{
-    padding: min(5em, 7%);
-}
-
-
-main p {
-    position: fixed;
-    top: 50px;
-    text-align: center;
-}
-
 nav{
-    position: fixed;
+    position: flex;
     top: 150px;
     left: 30%;
     background-color: rgba(0,0,0,0.1);
