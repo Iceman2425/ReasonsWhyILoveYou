@@ -12,7 +12,7 @@ body{
     min-height: 100dvh;
     background-color: black;
     font-family: "Lucida Calligraphy", "Brush Script MT", cursive, sans-serif;
-    color: #00cebd;    
+    color: #7c0000;    
 }
 nav{
     background-color: rgba(0,0,0,0.1);
@@ -145,7 +145,7 @@ h1 {
     padding-right: 5%;
 }
 #toptext {
-  color: #00cebd;
+  color: #7c0000;
   font-size: 15px;
   align-self: center;
 }
@@ -187,14 +187,6 @@ nav .home-li{
 h1 {
     font-size: 16px;
 }
-#heart video {
-    height: 100vh;
-    width: 100%;
-    background-position: center center;
-    z-index: 10;
-    object-fit: contain;
-}
-
 }
 
 
