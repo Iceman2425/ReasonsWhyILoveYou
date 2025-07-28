@@ -219,10 +219,12 @@ nav a.active-link{
 nav .home-li{
     margin-right: unset;
 }
+}
 @media screen and (max-width: 480px){
     #open-sidebar-button, #close-sidebar-button{
         display: block;
     }
+
 nav{
     position: fixed;
     top: 0;
@@ -249,8 +251,6 @@ nav a.active-link{
 nav .home-li{
     margin-right: unset;
 }
-
-
 }
 
 
