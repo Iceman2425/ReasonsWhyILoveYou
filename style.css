@@ -186,6 +186,7 @@ nav .home-li{
 }
 h1 {
     font-size: 16px;
+    padding-top: 1%;
 }
 #heart video {
     height: 100vh;
