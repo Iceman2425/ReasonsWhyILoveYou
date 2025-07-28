@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All The Reasons Why I Love You</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    </head>
+            <h6>Your Smell</h6>
+<body>
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-hidden="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <image src="heart.svg" height="40px" viewBox="0 -960 960 960" width="40px"/>
+    </button>
+        <nav id="navbar">
+         <ul>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()">
+                <image src="close.svg" height="40px" viewBox="0 -960 960 960" width="40px"/>
+            </button></li>
+            <li class="home-li"><a class="active-link" aria-current="page" href="index.html" class="Home">Home</a></li>
+            <li><a href="YourSmile.html">Your Smile</a></li>
+            <li><a href="YourLaugh.html">Your Laugh</a></li>
+            <li><a href="YourCompassion.html">Your Compassion</a></li>
+            <li><a class="accent-link" href="YourLove.html">Your Love</a> </li>
+        </ul>
+    </nav>
+    <div class="smellText"><p id="toptext"> Babe,
+        there's something about your smell that's completely hypnotizing.  It's like vanilla, warm hugs, and a little bit of sorcery.  Honestly if you ever went missing, I could find you just by sniffing the wind like a very confused, very in love bloodhound.  You smell like you've just walked through a field of flowers...that also serves fresh pastries.  I don't know how you do it.  Is it perfume? Witchcraft? A secret bakery in your purse?  When you leave your scent in our bed you leave the scent of love and high standards.  I feel like I'm in my own aromatherapy session.  You smell like everything good in the world-plus a hint of "don't mess with me, I have snacks and opinions." I wouldn't change a single note of it.  I love you.
+
+
+    </div>
+    <div id="heart">
+    <video autoplay loop muted src="Heart.mp4" type="video/mp4">
+    </video>
+    </div>    
+    <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+    <audio autoplay loop controls src="Lynyrd Skynyrd - That Smell (Audio).mp3" type="mp3/audio"></audio>
+    </body>
+</html>
