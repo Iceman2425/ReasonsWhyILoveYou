@@ -188,13 +188,6 @@ h1 {
     font-size: 16px;
     padding-top: 1%;
 }
-#heart video {
-    height: 100vh;
-    width: 100%;
-    background-position: center;
-    z-index: 10;
-    object-fit: cover;
-}
 .specialText {
   position: absolute;
   top: 60%;
