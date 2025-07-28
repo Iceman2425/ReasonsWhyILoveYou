@@ -184,22 +184,6 @@ nav a.active-link{
 nav .home-li{
     margin-right: unset;
 }
-h1 {
-    font-size: 16px;
-    padding-top: 1%;
-    height: auto;
-}
-.specialText {
-  position: absolute;
-  top: 60%;
-  left: 45%;
-  z-index: 1;
-  padding-right: 2%;
-  font-size: 16px;
-  text-align: inherit;
-  
-}
-
 }
 
 
