@@ -198,6 +198,13 @@ h1 {
   font-size: 16px;
   
 }
+#heart video {
+    height: auto;
+    width: auto;
+    background-position: center;
+    z-index: 10;
+    object-fit: cover;
+}
 
 }
 
