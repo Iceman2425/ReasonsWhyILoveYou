@@ -82,110 +82,105 @@ nav a.accent-link{
     object-fit: cover;
 }
 
-#heart .content h1 {
-    margin: 0;
+h1 {
     background: transparent;
-    position: absolute;
-    top: 5%;
-    left: 35%;
-    align-items: center;
+    position: flex;
+    align-items: flex;
     transform: translate;
     font-size: 2.5rem;
+    text-align: center;
+    padding-top: 5%;
 }
 
-#heart .content h2 {
-    margin: 0;
-    background: transparent;
-    position: absolute;
-    top: 5%;
-    left: 45%;
-    align-items: center;
+h2 {
+   background: transparent;
+    position: flex;
+    align-items: flex;
     transform: translate;
     font-size: 2.5rem;
+    text-align: center;
+    padding-top: 5%; 
 }
 
-#heart .content h3 {
-    margin: 0;
+h3 {
     background: transparent;
-    position: absolute;
-    top: 5%;
-    left: 45%;
-    align-items: center;
+    position: flex;
+    align-items: flex;
     transform: translate;
     font-size: 2.5rem;
+    text-align: center;
+    padding-top: 5%; 
 }
 
-#heart .content h4 {
-    margin: 0;
+h4 {
     background: transparent;
-    position: absolute;
-    top: 5%;
-    left: 45%;
-    align-items: center;
+    position: flex;
+    align-items: flex;
     transform: translate;
     font-size: 2.5rem;
+    text-align: center;
+    padding-top: 5%; 
 }
-
-#heart .content h5 {
-    margin: 0;
+h5 {
     background: transparent;
-    position: absolute;
-    top: 5%;
-    left: 47%;
-    align-items: center;
+    position: flex;
+    align-items: flex;
     transform: translate;
     font-size: 2.5rem;
+    text-align: center;
+    padding-top: 5%; 
+}
+.specialText {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  z-index: 1;
+}
+.smileText{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+    padding-right: 5%;
+}
+.laughText{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+    padding-right: 5%;
+
+}
+.compassionText{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+    padding-right: 5%;
 }
 
-
-#heart .content p {
-    margin: 0;
-    background: transparent;
+.loveText{
     position: absolute;
-    top: 40%;
-    left: 40%;
-    align-items: center;
-    transform: translate;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+    padding-right: 5%;
+}
+#toptext {
+  color: #7c0000;
+  font-size: 20px;
+  align-self: center;
 }
 
-#heart .content .YourCompassion  {
-    margin: 0;
+.smile-container p {
+    display: grid;
+    place-items: center;      
+    text-align: center;
     background: transparent;
-    position: absolute;
-    top: 40%;
-    left: 5%;
-    align-items: center;
-    transform: translate;
+    transform: translatex(-50%, -50%);
+    
 }
 
-#heart .content .YourLaugh {
-    margin: 0;
-    background: transparent;
-    position: absolute;
-    top: 40%;
-    left: 2%;
-    align-items: center;
-    transform: translate;
-}
-#heart .content .YourLove {
-    margin: 0;
-    background: transparent;
-    position: absolute;
-    top: 40%;
-    left: 1%;
-    align-items: center;
-    transform: translate;
-}
-
-#heart .content .YourSmile {
-    margin: 0;
-    background: transparent;
-    position: absolute;
-    top: 40%;
-    left: 2%;
-    align-items: center;
-    transform: translate;
-}
 
 
 
