@@ -187,6 +187,7 @@ nav .home-li{
 h1 {
     font-size: 16px;
     padding-top: 1%;
+    height: auto;
 }
 .specialText {
   position: absolute;
