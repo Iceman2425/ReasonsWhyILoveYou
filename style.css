@@ -216,7 +216,7 @@ nav .home-li{
     margin-right: unset;
 }
 }
-@media only screen and (min-width: 360px) and (min-height: 780px){
+@media screen and (min-width: 360px) and (min-height: 780px){
     #open-sidebar-button, #close-sidebar-button{
         display: block;
     }
